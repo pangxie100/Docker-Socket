@@ -1,3 +1,4 @@
+docker container rm -f server_container_and_dns_name
 docker build -t server_image .
 docker volume create server_persistent_storage
 docker volume inspect server_persistent_storage
